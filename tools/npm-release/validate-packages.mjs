@@ -265,7 +265,7 @@ function legalPolicyFilesForPackage(root, entry) {
 }
 
 const PUBLIC_REPOSITORY_URL =
-  'https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web';
+  'https://github.com/meta/meta-ray-ban-display-ui-toolkit-web';
 const DEVELOPER_CENTER_DESIGN_URL =
   'https://wearables.developer.meta.com/docs/develop/webapps/design';
 const PACKAGE_README_CONFIG = Object.freeze({

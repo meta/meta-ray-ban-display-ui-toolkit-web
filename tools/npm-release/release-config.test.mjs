@@ -1205,13 +1205,13 @@ test('generates exact next-tag installation guidance', () => {
       'npm install @wearables-ui-toolkit/icons@next\n' +
       '```\n\n' +
       '## Links\n\n' +
-      '- [Repository](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web)\n' +
-      '- [Package source](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/tree/main/packages/icons)\n' +
+      '- [Repository](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web)\n' +
+      '- [Package source](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/tree/main/packages/icons)\n' +
       '- [Documentation](https://wearables.developer.meta.com/docs/develop/webapps/design/foundations/utilities/icons/)\n\n' +
       '## License\n\n' +
       'This package is licensed under the [Meta Wearables Developer Terms](https://wearables.developer.meta.com/terms/).\n\n' +
-      '- [Package LICENSE](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/blob/main/packages/icons/LICENSE)\n' +
-      '- [Project NOTICE](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/blob/main/NOTICE)\n',
+      '- [Package LICENSE](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/blob/main/packages/icons/LICENSE)\n' +
+      '- [Project NOTICE](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/blob/main/NOTICE)\n',
   );
   for (const entry of PACKAGE_ORDER) {
     assert.match(
