@@ -12,7 +12,7 @@ Start with the [UI Toolkit overview](https://wearables.developer.meta.com/docs/d
 - [Apply foundations and design tokens](https://wearables.developer.meta.com/docs/develop/webapps/design/foundations/overview/)
 - [Use icons](https://wearables.developer.meta.com/docs/develop/webapps/design/foundations/utilities/icons/)
 
-[View the npm package](https://www.npmjs.com/package/@wearables-ui-toolkit/mrbd) or [report an issue](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/issues).
+[View the npm package](https://www.npmjs.com/package/@wearables-ui-toolkit/mrbd) or [report an issue](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/issues).
 
 ## Quick start
 
@@ -126,7 +126,7 @@ After completing these steps, the application can render its first toolkit scree
 
 ## Samples and utilities
 
-Explore the hosted [samples and utilities](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/) for the component gallery, launcher examples, messaging example, icon browser, and app icon generator. Each sample card includes a QR code for adding the app to your own glasses.
+Explore the hosted [samples and utilities](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/) for the component gallery, launcher examples, messaging example, icon browser, and app icon generator. Each sample card includes a QR code for adding the app to your own glasses.
 
 ## Preview in Chrome
 
@@ -153,14 +153,14 @@ yarn install
 
 Open a hosted sample or run it from the repository root:
 
-Use the [samples and utilities page](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/) to browse all hosted samples and find QR codes for opening them on your Meta Ray-Ban Display glasses.
+Use the [samples and utilities page](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/) to browse all hosted samples and find QR codes for opening them on your Meta Ray-Ban Display glasses.
 
 | Sample | Hosted | Local command |
 | --- | --- | --- |
-| Component gallery | [Open](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/component-gallery/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-gallery dev` |
-| Launcher | [Open](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/launcher/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-example-launcher dev` |
-| Alpha launcher | [Open](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/alpha-launcher/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-alpha-launcher dev` |
-| Messaging | [Open](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/messaging/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-messaging-demo dev` |
+| Component gallery | [Open](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/component-gallery/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-gallery dev` |
+| Launcher | [Open](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/launcher/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-example-launcher dev` |
+| Alpha launcher | [Open](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/alpha-launcher/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-alpha-launcher dev` |
+| Messaging | [Open](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/messaging/) | `yarn workspace @meta/wearables-ui-toolkit-mrbd-messaging-demo dev` |
 | Next.js navigation | Run locally | `yarn workspace @meta/wearables-ui-toolkit-mrbd-next-navigation dev` |
 
 Pushes to `main` publish the hosted samples and utility index to GitHub Pages.
@@ -173,7 +173,7 @@ The optional [`llm-skills`](llm-skills/) collection provides toolkit-specific co
 
 You can contribute focused bug fixes, documentation corrections, example repairs, and accessibility fixes. New components, visual-design changes, and public API changes follow Meta's design-system process. Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a pull request.
 
-Use [GitHub issues](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/issues) for public bugs and feature requests. Report security vulnerabilities through Meta's [Bug Bounty program](https://www.facebook.com/whitehat/) instead of a public issue.
+Use [GitHub issues](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/issues) for public bugs and feature requests. Report security vulnerabilities through Meta's [Bug Bounty program](https://www.facebook.com/whitehat/) instead of a public issue.
 
 ## License
 

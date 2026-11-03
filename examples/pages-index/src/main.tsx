@@ -74,7 +74,7 @@ const samples: SiteEntry[] = [
       'A browsable catalog of the public toolkit, showcasing components one at a time across their visual, interaction, and focus states.',
     href: './component-gallery/',
     sourceHref:
-      'https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/gallery',
+      'https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/gallery',
     installHref: createInstallHref('Component gallery', new URL('component-gallery/', PAGES_BASE_URL).href),
     artwork: 'gallery',
     webMcpCommands: [
@@ -92,7 +92,7 @@ const samples: SiteEntry[] = [
       'A recreation of a complete system launcher, showcasing paged navigation, quick settings, home content, app-grid layouts, and pin management.',
     href: './launcher/',
     sourceHref:
-      'https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/launcher',
+      'https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/launcher',
     installHref: createInstallHref('Launcher', new URL('launcher/', PAGES_BASE_URL).href),
     artwork: 'launcher',
     webMcpCommands: [
@@ -114,7 +114,7 @@ const samples: SiteEntry[] = [
       'An alternate system launcher recreation, showcasing a bottom action rail, URL-backed pages, focus restoration, and custom materials.',
     href: './alpha-launcher/',
     sourceHref:
-      'https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/alpha-launcher',
+      'https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/alpha-launcher',
     installHref: createInstallHref('Alpha launcher', new URL('alpha-launcher/', PAGES_BASE_URL).href),
     artwork: 'alpha',
     webMcpCommands: [
@@ -132,7 +132,7 @@ const samples: SiteEntry[] = [
       'A complete messaging app example, showcasing an avatar-led inbox, routed threads, grouped message bubbles, and bottom-anchored actions.',
     href: './messaging/',
     sourceHref:
-      'https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/messaging',
+      'https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/messaging',
     installHref: createInstallHref('Messaging', new URL('messaging/', PAGES_BASE_URL).href),
     artwork: 'messaging',
     webMcpCommands: [
@@ -523,7 +523,7 @@ function PagesIndex() {
                 Documentation
               </a>
               <a
-                href="https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web"
+                href="https://github.com/meta/meta-ray-ban-display-ui-toolkit-web"
                 target="_blank"
                 rel="noreferrer"
               >

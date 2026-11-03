@@ -90,7 +90,7 @@ export function GlassesShell() {
 }
 ```
 
-The public `examples/next-navigation` sample (https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/next-navigation)
+The public `examples/next-navigation` sample (https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/next-navigation)
 is a complete, device-validated reference for this structure.
 
 Separate Next.js pages under a layout with `NextNavigationProvider` and `App`

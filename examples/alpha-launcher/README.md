@@ -10,7 +10,7 @@ Read the [theming and customization](https://wearables.developer.meta.com/docs/d
 
 ## Open the hosted sample
 
-Open the hosted [Alpha launcher](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/alpha-launcher/) in a browser. The sample card on the [samples and utilities page](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/) includes a QR code for adding it to your own glasses.
+Open the hosted [Alpha launcher](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/alpha-launcher/) in a browser. The sample card on the [samples and utilities page](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/) includes a QR code for adding it to your own glasses.
 
 ## Preview with the Meta Ray-Ban Display Simulator
 

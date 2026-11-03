@@ -66,7 +66,7 @@
       "name": "uit-navigation-focus-web",
       "description": "Build, debug, or review UI Toolkit for Meta Ray-Ban Display App, Page, Header, ScrollView, VerticalList, Pager, SubNavigationPager, SubNavigation, PaginationIndicator, SwipeIndicator, route transitions, React Router and Next.js App Router integration, navigation focus retention for any router, focus coordination, focus restoration, partial focus, rubber-band feedback, boundary scrolling, fading edges, and scrollbars.",
       "file_count": 3,
-      "sha256": "sha256:3c345541275de48537dda0001c8e5f3d571da98e4aebe1f1ddacea2afa7a3b7b"
+      "sha256": "sha256:f4c26048d2e1987c0236bf10eb76af280aea444a6cf0a2f4549377923ededd8e"
     },
     {
       "name": "uit-operational-pager-app-web",

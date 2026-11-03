@@ -4,7 +4,7 @@ The Icons package provides the optional SVG icon catalog for UI Toolkit for Meta
 
 ## Documentation and browser
 
-Use the hosted [icon browser](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/utilities/icons/) to search by name or keyword, compare filled and outline styles, and copy the icon you need. Use the [app icon generator](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/utilities/app-icons/) to preview how artwork and colors appear in different app icon contexts and download the generated assets. Read the [icon documentation](https://wearables.developer.meta.com/docs/develop/webapps/design/foundations/utilities/icons/) for icon-slot behavior, tinting, accessibility, and custom assets.
+Use the hosted [icon browser](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/utilities/icons/) to search by name or keyword, compare filled and outline styles, and copy the icon you need. Use the [app icon generator](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/utilities/app-icons/) to preview how artwork and colors appear in different app icon contexts and download the generated assets. Read the [icon documentation](https://wearables.developer.meta.com/docs/develop/webapps/design/foundations/utilities/icons/) for icon-slot behavior, tinting, accessibility, and custom assets.
 
 ## Install
 

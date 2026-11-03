@@ -12,7 +12,7 @@ Start with the [UI Toolkit overview](https://wearables.developer.meta.com/docs/d
 - [Navigation and focus](https://wearables.developer.meta.com/docs/develop/webapps/design/guides/navigation-and-focus/)
 - [Theming and customization](https://wearables.developer.meta.com/docs/develop/webapps/design/guides/theming-and-customization/)
 
-Explore the hosted [samples and utilities](https://facebook.github.io/meta-ray-ban-display-ui-toolkit-web/) for complete app flows, the component gallery, and icon tools.
+Explore the hosted [samples and utilities](https://meta.github.io/meta-ray-ban-display-ui-toolkit-web/) for complete app flows, the component gallery, and icon tools.
 
 ## Requirements
 
@@ -101,7 +101,7 @@ The Next.js App Router integration uses the application's existing `next` depend
 
 ## AI coding skills
 
-Optional coding-agent skills are distributed through the [GitHub repository](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web), not through the npm package. Follow the [coding-agent skills guide](https://wearables.developer.meta.com/docs/develop/webapps/design/getting-started/coding-agent-skills/) to install them for Muse Code, Codex, or Claude Code.
+Optional coding-agent skills are distributed through the [GitHub repository](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web), not through the npm package. Follow the [coding-agent skills guide](https://wearables.developer.meta.com/docs/develop/webapps/design/getting-started/coding-agent-skills/) to install them for Muse Code, Codex, or Claude Code.
 
 ## App shell
 
@@ -147,7 +147,7 @@ import {
 } from '@wearables-ui-toolkit/mrbd/next';
 ```
 
-The Next.js subpath also exports `useNextNavigation`, `useNextPageTransition`, `getNextHistoryIndex`, `getBrowserNavigationEntryIndex`, and `getPageTransitionDirectionForHistoryIndex`. Because Next.js resolves a layout's `children` from the current route, `NextPageTransition` takes a render function that returns each screen from the transition's `pathname`. The [Next.js navigation sample](https://github.com/facebook/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/next-navigation) shows the complete structure.
+The Next.js subpath also exports `useNextNavigation`, `useNextPageTransition`, `getNextHistoryIndex`, `getBrowserNavigationEntryIndex`, and `getPageTransitionDirectionForHistoryIndex`. Because Next.js resolves a layout's `children` from the current route, `NextPageTransition` takes a render function that returns each screen from the transition's `pathname`. The [Next.js navigation sample](https://github.com/meta/meta-ray-ban-display-ui-toolkit-web/tree/main/examples/next-navigation) shows the complete structure.
 
 With any other router, compose `PageTransition`, `useBackNavigation`, and `RoutePreloadProvider` from the main entry point, and call `useNavigationFocusRetention` with the router's location key or pathname. Embedded browsers on the glasses can move focus to the document root during same-document navigation; the hook keeps the focused control's state through every route change, as both router subpaths do automatically. See [route navigation](https://wearables.developer.meta.com/docs/develop/webapps/design/guides/route-navigation/) for complete shells.
 
