@@ -103,10 +103,29 @@ function toRepositoryPath(root, path) {
   return relative(root, path).split(sep).join('/');
 }
 
+const POLICY_DIRECTORIES = [
+  'examples',
+  'llm-skills',
+  'oss',
+  'packages/androidx-shapes',
+  'packages/foundation',
+  'packages/icons',
+  'packages/mrbd',
+  'tools',
+];
+
 function isExcludedDirectory(root, path) {
   const repositoryPath = toRepositoryPath(root, path);
   const directoryName = repositoryPath.split('/').at(-1);
-  return EXCLUDED_DIRECTORY_NAMES.has(directoryName);
+  return (
+    EXCLUDED_DIRECTORY_NAMES.has(directoryName) ||
+    !POLICY_DIRECTORIES.some(
+      directory =>
+        repositoryPath === directory ||
+        repositoryPath.startsWith(`${directory}/`) ||
+        directory.startsWith(`${repositoryPath}/`),
+    )
+  );
 }
 
 function collectPolicyFiles(root, directory = root) {
